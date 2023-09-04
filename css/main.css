@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #000;
+}
+/* aside navbar */
+.logo {
+  width: 50px;
+}
+
+.aside {
+  left: -295.538px;
+  z-index: 1000;
+}
+
+.nav {
+  background-color: #0d0d0d;
+}
+
+.links li {
+  top: 300px;
+}
+/* main */
+/* search */
+
+#searchelement input::placeholder {
+  color: #fff;
+}
+
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: 0.5s;
+}
+
+.meal:hover .meal-layer{
+  top: 0;
+}
